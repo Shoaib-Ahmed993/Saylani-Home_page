@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: #316DC3;
+}
+.header{
+    z-index: 9999;
+    position: relative;
+}
+.icons::selection {
+    background-color: black;
+}
+
+.slogan::selection {
+    background-color: black;
+}
+
+.font-14 {
+    font-size: 13.5px !important;
+}
+
+.buttons::selection {
+    background-color: black;
+}
+.navbar ul li a, .submenu li a {
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px !important;
+}
+
+.navbar ul li a:hover {
+    background-color: #316DC3;
+    color: #fff !important;
+}
+
+.navbar ul li.active>a {
+    background-color: #316DC3 !important;
+    color: #fff !important;
+}
+
+.submenu {
+    background-color: #fff;
+    width: max-content;
+    display: none;
+    position: absolute;
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    border-radius: 0 !important;
+    width: 100%;
+}
+.nav-item a.nav-link{
+    color: rgb(41, 40, 40) !important;
+    font-weight: 600;
+}
+.nav-link:hover+.submenu, .submenu:hover {
+    display: block;
+}
+
+.submenu2 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.marquee {
+    background-color: #316DC3;
+    color: #fff;
+}
+
+.news {
+    color: #00ff00;
+}
+
+.text {
+    color: #fff;
+}
+
+.link {
+    color: blue !important;
+    text-decoration: none !important;
+}
+
+.intro {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #316DC3;
+    font-weight: 600;
+}
+
+.intro span {
+    color: #427900;
+}
+
+span.separator {
+    height: 2px;
+    width: 50px;
+    display: block;
+    background-color: #427900;
+    margin: 30px 0 -30px 40px !important;
+}
+
+span.separator2 {
+    height: 2px;
+    width: 50px;
+    background-color: #427900;
+    position: absolute;
+    margin-left: 10px !important;
+    margin-top: 28px !important;
+}
+
+span.separator3 {
+    height: 2px;
+    width: 50px;
+    display: block;
+    background-color: #427900;
+    margin-left: 80px !important;
+    margin-bottom: -25px !important;
+}
+
+span.separator4 {
+    height: 2px;
+    width: 50px;
+    background-color: #427900;
+    position: absolute;
+    margin-left: -1px !important;
+    margin-top: 26px !important;
+}
+
+.fevicon {
+    height: 2px;
+    width: 50px;
+    margin-left: 42% !important;
+    background-color: #427900;
+    display: block;
+    position: absolute;
+}
+
+.fevicon2 {
+    height: 2px;
+    width: 50px;
+    background-color: #427900;
+    position: absolute;
+}
+
+p.px-5::selection {
+    background-color: black;
+    color: #fff;
+}
+
+.counter {
+    background-color: rgb(38, 85, 232);
+}
+
+span.cntr {
+    color: #00ff00;
+}
+
+div.box {
+    background-color: #fff;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    margin: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 30.333333%;
+    }
+}
+
+h3.miss {
+    font-weight: 600 !important;
+    color: #316DC3;
+}
+
+span.line {
+    width: 50px;
+    height: 2px;
+    background-color: #427900;
+    display: block;
+}
+
+span.pro {
+    color: #316DC3;
+    font-weight: 600;
+}
+
+.mission marquee {
+    height: 230px;
+}
+
+.mission marquee a {
+    text-decoration: none;
+    color: #316DC3;
+}
+
+.mission marquee a::selection {
+    background-color: black;
+    color: #fff;
+}
+
+.mission marquee li::selection {
+    background-color: black;
+    color: #fff;
+}
+
+div.gallery {
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.gallery h2 {
+    color: #316DC3;
+    font-weight: 600;
+}
+
+div.gallery span {
+    color: #427900;
+}
+
+.flinks a {
+    background-color: #316DC3;
+    color: #fff;
+    border-radius: 50%;
+}
+
+div.footer {
+    background-color: #25272e;
+}
+
+div.phone .fa {
+    color: #427900;
+}
+
+div.phone {
+    color: #bbb;
+}
+
+div.phone::selection {
+    background-color: black;
+    color: #fff;
+}
+
+div.copy {
+    background-color: #316dd9;
+    color: #fff;
+}
+
+div.copy span {
+    font-size: 12px;
+}
+
+span.right::selection {
+    background-color: black;
+    color: #fff;
+}
